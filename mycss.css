@@ -1,0 +1,164 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: url('images/codeWorld.png.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #c0caf5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, nav, section, footer {
+            background-color: rgba(30, 33, 44, 0.9);
+            color: #7aa2f7;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+            transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+         {
+            line-height: 75%;
+        }
+        header:hover, nav:hover, section:hover, footer:hover {
+            border-color: #ff0000; /* hover color*/
+            box-shadow: 0 0 10px #ff0000; 
+        }
+
+        h1:hover, h2:hover {
+            border-color: #00FF00;
+            box-shadow: 0 0 10px #00FF00;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: rgba(28, 30, 42, 0.9);
+            border-radius: 4px;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        #bio {
+            background-color: rgba(30, 33, 44, 0.9);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }   
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-grid li {
+            display: inline-block;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #bb9af7;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background-color: rgba(30, 33, 44, 0.7);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: #a9b1d6;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        h2 {
+            border-bottom: 2px solid #7aa2f7;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #7aa2f7;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        .skills, .experience, .education, .certifications .bio {
+            list-style: none;
+            padding: 0;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        .skills li, .experience li, .education-entry, .certification-entry .bio {
+            margin-bottom: 10px;
+        }
+        .education-entry  .certification-entry {
+            margin-bottom: 20px;
+            display: block;
+            color: #bb9af7;
+
+        }
+        .skills .icon-style {
+            font-size: 2.5em;
+            margin: 0.5em;
+        }
+        .skills .icon-style.js { /* Ensures matching class for JavaScript icon */
+            font-size: 2em; /* Adjust size to match others */
+        }
+        
+        footer {
+            background-color: rgba(30, 33, 44, 0.9);
+            color: #7aa2f7;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #7aa2f7;
+            border: 2px solid #7aa2f7;
+        }
+        footer .git-bottom {
+            font-size: 2em;
+        }
+
+        .icons-code {
+            font-size: 4.25em;
+
+        }
+
+        .switch .after {
+            display:none;
+        }
+
+        .switch:hover .before {
+            display: none;
+        }
+
+        .switch:hover .after {
+            display:inline;
+            font-size: xx-large;
+            text-shadow:1px 0 10px #7aa2f7;
+               
+        }
+
+        li {
+            list-style-type: none;
+        }
